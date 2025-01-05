@@ -54,4 +54,5 @@ A futures exchange is a platform where users can trade futures contracts, which 
 
 ## DCEX
 
--
+- All the money is not kept in a single wallet
+- Its more like wallet as a service. Every user will have their own wallet.
