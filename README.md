@@ -1,6 +1,6 @@
 # crypto_exchange
 
-A CEX crypto exchange app, where users can view crypto charts, buy, sell, or trade cryptocurrencies and other digital assets.
+A DCEX, decentralized crypto exchange app, where users can view crypto charts, buy, sell, or trade cryptocurrencies and other digital assets.
 
 ## TODO
 
@@ -21,3 +21,6 @@ A CEX crypto exchange app, where users can view crypto charts, buy, sell, or tra
 - Now buy with this USDT any crypto like bitcoin, ethereum
 
 ### Market Makers
+
+- People who are willing to sell 120$ for your 10,000
+- Quite difficult to have people with huge capital to do that in india due to tax on every transaction
