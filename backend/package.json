@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@binance/connector": "^3.6.0",
     "nodemon": "^3.1.9",
     "wscat": "^6.0.1"
   }

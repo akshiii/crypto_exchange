@@ -9,21 +9,16 @@ const candleStick = chart.addCandlestickSeries({
   wickUpColor: "#26a69a",
   wickDownColor: "#ef5350",
 });
-candleStick.setData([
-  {
-    time: "2018-12-31",
-    open: 109.87,
-    high: 114.69,
-    low: 85.66,
-    close: 112,
-  },
-]);
+// candleStick.setData([
+
+// ]);
+chart.timeScale().fitContent();
 
 function setData(ohlcDataStream) {
-  console.log("Date is = ", new Date(ohlcDataStream.k.T));
-  let date = new Date(ohlcDataStream.k.t);
+  console.log("Date is = ", new Date(ohlcDataStream.k.t / 1000));
+
   candleStick.update({
-    time: ohlcDataStream.k.T,
+    time: ohlcDataStream.k.t / 1000,
     open: ohlcDataStream.k.o,
     high: ohlcDataStream.k.h,
     low: ohlcDataStream.k.l,
